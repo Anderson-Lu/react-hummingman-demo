@@ -3,8 +3,8 @@ React Html For Hummingman
 
 # Look like this
 
-![snapshot](demo/1.png)
+![snapshot](1.png)
 
-![snapshot](demo/2.png)
+![snapshot](2.png)
 
-![snapshot](demo/3.png)
+![snapshot](3.png)
