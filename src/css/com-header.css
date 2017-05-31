@@ -1,0 +1,166 @@
+.title-area .site-title{
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+.title-area .site-title a {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 119px 10px;
+	display: block;
+	height: 60px;
+	margin-top: 0px;
+	width: 120px;
+}
+
+@media screen and (max-device-width:414px){
+  .title-area{
+    display:none;
+  }
+}
+/* # Site Navigation
+---------------------------------------------------------------------------------------------------- */
+
+.menu {
+	background: #201e1c;
+	display: block;
+	padding: 0 100px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 9999;
+	
+	-webkit-transform: translateY(-150%) translateZ(-250px);
+	transform: translateY(-150%) translateZ(-250px);
+	
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.menu.show {
+	-webkit-transform: translateY(0%) translateZ(0px);
+	transform: translateY(0%) translateZ(0px);
+}
+
+.menu li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 16.5%;
+}
+
+.menu li a {
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-family: "merriweather", serif;
+	font-style: normal;
+	font-size: 28px;
+	font-weight: bold;
+	height: 250px;
+	padding: 30% 11%;
+	text-decoration: none;
+	width: 100%;
+}
+
+.menu li a:hover {
+	background: rgba(255,255,255,0.05);
+	color: #fff;
+}
+
+.menu li a small {
+	color: #7b7a7a;
+	display: block;
+	font-family: "ff-tisa-web-pro", serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+#nav {
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: -17px;
+}
+
+#nav a {
+	border-bottom: 2px solid #fff;
+	color: #888;
+	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	height: 55px;
+	letter-spacing: 1px;
+	line-height: 62px;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index: 10;
+  transition: all 0.3s ease-in-out;
+}
+
+.site-description {
+	display: none;
+}
+
+#nav a.login {
+	background: #fff;
+	padding: 0 20px;
+	right: 112px;
+}
+
+.moved #nav {
+	display: none;
+}
+
+#nav .menu-icon {
+	background: #f5f5f5;
+	border: none;
+	display: none;
+	position: relative;
+}
+
+#nav .menu-icon span:before {
+	font-size: 14px;
+	margin-right: 10px;
+	left:-10px;
+	top:23px;
+}
+
+#nav a:hover,
+#nav a.current-page {
+	border-bottom: 2px solid #201e1c;
+	color: #201e1c;
+}
+
+#nav .menu-icon:hover {
+	border: none;
+	color: #7b7a7a;
+}
+
+.site-header {
+	border-bottom: 1px solid #eee;
+	height: 56px;
+	position: absolute;
+	top: 0px;
+	width: 100%;	
+	z-index: 100;
+	opacity: 0.9;
+	background: #fff;
+}
+
+.site-container {
+	background: #fff;
+	min-height: 100%;
+	position: relative;
+	outline: 1px solid rgba(0,0,0,0);	
+	-webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
+	transform: translateZ(0) translateX(0) rotateY(0deg);	
+}

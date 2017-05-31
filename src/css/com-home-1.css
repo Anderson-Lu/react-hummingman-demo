@@ -1,0 +1,136 @@
+.com-home-1-div {
+    width: 100%;
+    height: 100%;    
+    padding: 0;
+    margin: 0;
+}
+
+.com-home-1-div-top{
+    width:100%;
+    height: 300px;    
+    margin: 0 auto;
+    display: block;
+    background: #fff;    
+    border-radius: 1px;
+    border-bottom: 1px solid #eee;
+    padding-top: 80px;    
+}
+
+.com-home-1-div-top-left{
+    margin: 10px;   
+    color: #999;
+    padding: 15px;
+    font-size: 15px;
+    width:30%;    
+    height: 200px;
+    text-align: right;     
+    float: left;      
+}
+
+.com-home-1-div-top-left h2{
+    border-left: 2px #201e1c solid;
+}
+
+.com-home-1-div-top-left h6{
+    border: 1px solid #999;
+    float: right;
+    width:70px;
+    border-radius: 2px;
+    margin-top: -10px; 
+}
+
+.com-home-1-div-top-left p{
+    text-align: left;
+}
+
+.com-home-1-div-top-right{
+    margin: 10px;
+    color: #999;
+    padding: 15px;
+    font-size: 15px;
+    width:50%;    
+    height: 200px;
+    text-align: left;  
+    float: left;
+    line-height: 30px;
+}
+
+.com-home-1-div-middle{
+    margin-top: 10px;
+    width:100%;
+    min-height: 400px;       
+    padding: 10px;
+}
+
+.com-home-1-div-middle-left{
+    width: 30%;
+    height: 100%;
+    display: block;
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #eee;
+}
+
+.com-home-1-div-middle-left-msg-header{
+    color: #999;
+}
+
+.com-home-1-div-middle-left-msg-header img{        
+    float: left;
+    margin-right: 10px;
+}
+
+.com-home-1-div-middle-left-msg-list li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999
+}
+
+.com-home-1-div-middle-left-msg-list li:hover{
+    border-left: 3px solid #201e1c;
+    cursor: pointer;
+    padding-left: 5px;
+    transition: all 0.2s ease-in-out;
+    font-size: 12px;
+    color: #201e1c;
+}
+
+.com-home-1-div-middle-right{
+    width: 60%;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.com-home-1-div-middle-right-msg-header{
+    color: #999;
+}
+
+.com-home-1-div-middle-right-msg-header img{        
+    float: left;
+    margin-right: 10px;
+}
+
+.com-home-1-div-middle-right-msg-content{
+    font-size: 12px;
+    color: #999
+}
+
+.com-home-1-div-middle-right-msg-content li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.com-home-1-div-middle-right-msg-content li:hover{
+    border-left: 3px solid #201e1c;
+    cursor: pointer;
+    padding-left: 5px;
+    transition: all 0.2s ease-in-out;
+    font-size: 12px;
+    color: #201e1c;
+}
+
